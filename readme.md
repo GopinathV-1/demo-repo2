@@ -32,8 +32,7 @@ pip install matplotlib
 
 ## Running the App
 
-To run this code you need to have your textual document in your project directory with extension **.txt** and then when you run the script, it will automatically loads all the document with that extension and then compute the similarity between them just as shown below;
-
+To run this code you need to have to download [!dictionaries, matches](https://www.kaggle.com/manasgarg/ipl/version/5) and [!umpires](https://www.kaggle.com/subhodeepchandra/ipl-umpires-by-country) csv files and place these dataset in the same directory  
 ```bash
 $-> cd Plagiarism-checker-Python
 $ Plagiarism-checker-Python-> python3 app.py
