@@ -43,7 +43,8 @@ To create a virtual environment, you must specify a path. You may provide any na
 ```bash
 virtualenv <mypython>
 ```
-Activate the virtual environment
+  
+### Activate the virtual environment
 ```bash
 source mypython/bin/activate
 ```
@@ -55,6 +56,7 @@ $-> cd IPL ANALYSIS-Python
 $ cd IPL ANALYSIS-Python-> python3 total_runs.py
 
 ```
+
 ```bash
 $ cd IPL ANALYSIS-Python-> python3 rcb_top_batsman.py
 
@@ -68,4 +70,9 @@ $ cd IPL ANALYSIS-Python-> python3 total_matches_by_team.py
 
 ```
 
+### Deactivate the virtual environment
+if you have followed step1 use this command to get out of virtualenv
+```bash
+deactivate
 
+```
