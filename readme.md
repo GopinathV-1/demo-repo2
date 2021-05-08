@@ -32,13 +32,13 @@ pip install matplotlib
 
 ## Running the App
 
-To run this code you need to have to download ![dictionaries, matches](https://www.kaggle.com/manasgarg/ipl/version/5) and ![umpires](https://www.kaggle.com/subhodeepchandra/ipl-umpires-by-country) csv files and place these dataset in the same directory. If you want to **install and setup virtualenv** follow from **step 1** or if you want to **directly run it in editor** follow from **step2**
-##step1
-###Install the virtualenv package
+To run this code you need to have to download ![dictionaries, matches](https://www.kaggle.com/manasgarg/ipl/version/5) and ![umpires](https://www.kaggle.com/subhodeepchandra/ipl-umpires-by-country) csv files and place these dataset in the same directory. If you want to **install and setup virtualenv** follow from **step 1** or if you want to **directly run it in editor** follow from **step2**.
+## step1
+### Install the virtualenv package
 ```bash
 pip install virtualenv
 ```
-###Create the virtual environment
+### Create the virtual environment
 To create a virtual environment, you must specify a path. You may provide any name in the place of <mypython>:
 ```bash
 virtualenv <mypython>
@@ -47,10 +47,24 @@ Activate the virtual environment
 ```bash
 source mypython/bin/activate
 ```
-##step2
+  
+## step2
+  
 ```bash
 $-> cd IPL ANALYSIS-Python
-$ cd IPL ANALYSIS-Python-> python3 .py
+$ cd IPL ANALYSIS-Python-> python3 total_runs.py
+
+```
+```bash
+$ cd IPL ANALYSIS-Python-> python3 rcb_top_batsman.py
+
+```
+```bash
+$ cd IPL ANALYSIS-Python-> python3 foreign_umpire.py
+
+```
+```bash
+$ cd IPL ANALYSIS-Python-> python3 total_matches_by_team.py
 
 ```
 
